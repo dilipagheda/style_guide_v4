@@ -2,31 +2,25 @@
 
 /*Flex box - Grid*/
 .grid__row {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  //border:1px solid black;
+  @include flexbox($justify:center);
   @include p-m($margin:30px 0);
   @include desktop{
-    flex-direction: row;
-    justify-content: space-between;
-
+    @include flexbox($direction:row);
   }
 }
 
 @for $i from 2 through 12 {
   .grid__col--#{$i}{
 
-    display: flex;
+
     @if($i==12){
-      flex-direction: column;
+      @include flexbox($justify:center);
     }
     @else{
-      flex-direction: row;
+      @include flexbox($direction:row,$justify:center);
     }
-    justify-content: center;//for centering an image
     @include desktop{
-      flex-direction: row;
+      @include flexbox($direction:row,$justify:center);
       @if(map-get($grid-col-width,$i)!=null){
         width: map-get($grid-col-width,$i);
         @if($i==8){
@@ -38,7 +32,7 @@
       @if(map-get($theme-grid-colors,$i)!=null){
         background-color: map-get($theme-grid-colors,$i);
         @include p-m($padding:10px,$margin:5px 0);
-        justify-content: flex-start;
+        @include flexbox($direction:row,$justify:flex-start);
         border-radius: 5px;
         color:$theme-button-text-color;
         @include desktop{

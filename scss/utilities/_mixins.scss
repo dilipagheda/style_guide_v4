@@ -5,8 +5,16 @@
   margin:$margin;
 }
 
+//Mixin for media query for desktop
 @mixin desktop{
   @media (min-width: 480px){
     @content;
   }
+}
+
+//Mixin for flexbox properties
+@mixin flexbox($direction:column, $justify:space-between){
+  flex-direction: $direction;
+  justify-content: $justify;
+  display: flex;
 }

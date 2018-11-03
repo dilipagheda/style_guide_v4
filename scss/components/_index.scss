@@ -1,29 +1,29 @@
 @import "navigation","grid","buttons","forms","images","typography";
 
-.headline--secondary{
-margin-left: 20px;
-color:$headline-secondary-color;
-@include desktop{
-  margin-left: 5px;
-}
+.headline--secondary {
+  @include p-m($margin:0 0 20px 20px); // margin left
+  color: $headline-secondary-color;
+  @include desktop {
+    @include p-m($margin:0 0 20px 5px); // margin left
+  }
 }
 
-.headline--primary{
+.headline--primary {
   display: block;
   width: 70%;
-  margin-left: 20px;
-  color:$headline-primary-color;
+  @include p-m($margin:0 0 0 20px); // margin left
+  color: $headline-primary-color;
 }
 
-.blockquote{
+.blockquote {
   font-style: italic;
   font-size: 1.5em;
   border-left: 10px solid $primary-color;
-  padding-left: 10px;
+  @include p-m($padding:0 0 0 10px); // padding left
   font-weight: 100;
   line-height: 1.25em;
 }
 
-.link{
+.link {
   text-decoration: none;
 }
