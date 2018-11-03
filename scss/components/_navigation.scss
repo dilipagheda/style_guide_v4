@@ -1,0 +1,30 @@
+.grid__col--9{
+  nav{
+    ul{
+      margin:0;
+      padding: 0;
+      li{
+        padding: 15px;
+        list-style: none;
+        width: 100%;
+        text-align: center;
+        @include desktop{
+          display: inline-block;
+          width: auto;
+        }
+        a{
+          text-decoration: none;
+          color:$text-color;
+        }
+        &:hover{
+          background-color: $primary-color;
+          border-radius:5px;
+          & a{
+            color:$button-text-color;
+          }
+        }
+      }
+
+    }
+  }
+}

@@ -1,0 +1,12 @@
+
+.img--avatar{
+align-self: center;
+@include p-m($margin:20px 0 0 0);
+}
+
+.img--frame{
+  width: 100%;
+  height: auto;
+  @include p-m(10px,20px);
+  border:1px solid $primary-color;
+}

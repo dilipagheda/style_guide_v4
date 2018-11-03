@@ -1,0 +1,12 @@
+@import "../utilities/variables";
+
+
+@each $tag, $color in $button-tags-map{
+  .btn--#{$tag}{
+    background-color: $color;
+    @include p-m($margin:10px 10px,$padding: 10px);
+    border-radius: 5px;
+    color:$button-text-color;
+    text-transform: uppercase;
+  }
+}

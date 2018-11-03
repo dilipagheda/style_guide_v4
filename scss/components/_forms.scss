@@ -1,0 +1,17 @@
+.form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  .form__label--hidden{
+    display: none;
+  }
+  .form__input{
+    border: none;
+    border-bottom: 5px solid $primary-color;
+    @include p-m($padding:10px, $margin:10px 20px);
+    &::focus{
+      border: none;
+    }
+  }
+
+}

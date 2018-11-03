@@ -1,0 +1,52 @@
+@import "../utilities/variables";
+
+/*Flex box - Grid*/
+.grid__row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  //border:1px solid black;
+  @include p-m($margin:30px 0);
+  @include desktop{
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+}
+
+@for $i from 2 through 12 {
+  .grid__col--#{$i}{
+
+    display: flex;
+    @if($i==12){
+      flex-direction: column;
+    }
+    @else{
+      flex-direction: row;
+    }
+    justify-content: center;//for centering an image
+    @include desktop{
+      flex-direction: row;
+      @if(map-get($grid-col-width,$i)!=null){
+        width: map-get($grid-col-width,$i);
+      }
+    }
+    &.theme__colors{
+      @if(map-get($theme-grid-colors,$i)!=null){
+        background-color: map-get($theme-grid-colors,$i);
+        @include p-m($padding:10px,$margin:5px 0);
+        justify-content: flex-start;
+        border-radius: 5px;
+        color:$theme-button-text-color;
+        @include desktop{
+          @include p-m($padding:10px,$margin:0 5px);
+          &.centered{
+            margin: auto;
+          }
+        }
+      }
+
+    }
+  }
+
+};

@@ -1,0 +1,51 @@
+//primary-color is green color used in background for navigation menus, headers and side bar for block quote
+$primary-color:#58E1C1;
+//secondary-color is blue color used in links, background color for login button
+$secondary-color:#51DDFC;
+$button-text-color:white;
+$headline-primary-color:#71E5CA; //primary headline--primary
+$headline-secondary-color:#C4C4C4;
+$text-color:lighten(#828282,20%);
+//Font
+$font-stack:'Titillium Web', sans-serif;
+
+//Button colors
+
+$default-button-color:$secondary-color;//default
+$success-button-color:#63CC82;//success
+$error-button-color:#E4757A;//error
+$warning-button-color:#FD7856;//warning
+$info-button-color:#927BC1;//info
+
+//define a list
+$button-tags-map:(default:$default-button-color,
+                  success:$success-button-color,
+                  error:$error-button-color,
+                  warning:$warning-button-color,
+                  info:$info-button-color);
+//Theme colors for grid divs
+$color-3:#DEB2EE;
+$color-4:#7EE6FD;
+$color-5:#88D9A0;
+$color-6:#3FABCA;
+$color-7:#EC9FA3;
+$color-8:#FD9F85;
+$color-12:#80E8D1;
+$theme-button-text-color:#808080;
+//Map - Theme colors for grid divs
+$theme-grid-colors:(3:$color-3,
+                    4:$color-4,
+                    5:$color-5,
+                    6:$color-6,
+                    7:$color-7,
+                    8:$color-8,
+                    12:$color-12);
+//Map - widths of grid columns for desktop
+$grid-col-width:(12:100%,
+                 6:50%,
+                 4:33.33%,
+                 3:25%,
+                 5:40%,
+                 7:60%,
+                 8:66.67%
+                 );

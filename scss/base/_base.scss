@@ -1,0 +1,16 @@
+@import "../utilities/mixins","../utilities/variables";
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  @include p-m($padding:20px);
+  color:$text-color;
+  line-height: 1.5em;
+  @include desktop{
+    max-width: 1400px;
+    @include p-m($margin:0 10%);
+
+  }
+}
