@@ -3,6 +3,9 @@
 .headline--secondary{
 margin-left: 20px;
 color:$headline-secondary-color;
+@include desktop{
+  margin-left: 5px;
+}
 }
 
 .headline--primary{

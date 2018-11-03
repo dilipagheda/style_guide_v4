@@ -29,6 +29,9 @@
       flex-direction: row;
       @if(map-get($grid-col-width,$i)!=null){
         width: map-get($grid-col-width,$i);
+        @if($i==8){
+          @include p-m($margin:0 25px 0 0);
+        }
       }
     }
     &.theme__colors{

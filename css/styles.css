@@ -349,12 +349,6 @@ template {
   }
 }
 
-@media (min-width: 480px) {
-  .grid__col--9 {
-    padding: 0;
-    margin: 0 10px;
-  }
-}
 .grid__col--9 nav ul {
   margin: 0;
   padding: 0;
@@ -562,6 +556,8 @@ template {
   .grid__col--8 {
     flex-direction: row;
     width: 66.67%;
+    padding: 0;
+    margin: 0 25px 0 0;
   }
 }
 .grid__col--8.theme__colors {
@@ -649,6 +645,13 @@ template {
   color: white;
   text-transform: uppercase;
 }
+@media (min-width: 480px) {
+  .btn--default {
+    padding: 10px 5%;
+    margin: 0 1%;
+    width: auto;
+  }
+}
 
 .btn--success {
   background-color: #63CC82;
@@ -657,6 +660,13 @@ template {
   border-radius: 5px;
   color: white;
   text-transform: uppercase;
+}
+@media (min-width: 480px) {
+  .btn--success {
+    padding: 10px 5%;
+    margin: 0 1%;
+    width: auto;
+  }
 }
 
 .btn--error {
@@ -667,6 +677,13 @@ template {
   color: white;
   text-transform: uppercase;
 }
+@media (min-width: 480px) {
+  .btn--error {
+    padding: 10px 5%;
+    margin: 0 1%;
+    width: auto;
+  }
+}
 
 .btn--warning {
   background-color: #FD7856;
@@ -676,6 +693,13 @@ template {
   color: white;
   text-transform: uppercase;
 }
+@media (min-width: 480px) {
+  .btn--warning {
+    padding: 10px 5%;
+    margin: 0 1%;
+    width: auto;
+  }
+}
 
 .btn--info {
   background-color: #927BC1;
@@ -684,6 +708,13 @@ template {
   border-radius: 5px;
   color: white;
   text-transform: uppercase;
+}
+@media (min-width: 480px) {
+  .btn--info {
+    padding: 10px 5%;
+    margin: 0 1%;
+    width: auto;
+  }
 }
 
 .form {
@@ -733,6 +764,11 @@ template {
 .headline--secondary {
   margin-left: 20px;
   color: #C4C4C4;
+}
+@media (min-width: 480px) {
+  .headline--secondary {
+    margin-left: 5px;
+  }
 }
 
 .headline--primary {
