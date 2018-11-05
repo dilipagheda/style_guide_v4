@@ -341,7 +341,7 @@ template {
   color: #b5b5b5;
   line-height: 1.5em;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .container {
     max-width: 1400px;
     padding: 0;
@@ -361,7 +361,7 @@ template {
   list-style: none;
   text-align: center;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--9 nav ul li {
     display: inline-block;
     width: auto;
@@ -387,7 +387,7 @@ template {
   padding: 0;
   margin: 30px 0;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__row {
     flex-direction: row;
     justify-content: space-between;
@@ -400,7 +400,7 @@ template {
   justify-content: center;
   display: flex;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--2 {
     flex-direction: row;
     justify-content: center;
@@ -412,7 +412,7 @@ template {
   justify-content: center;
   display: flex;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--3 {
     flex-direction: row;
     justify-content: center;
@@ -430,7 +430,7 @@ template {
   border-radius: 5px;
   color: #808080;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--3.theme__colors {
     padding: 10px;
     margin: 0 5px;
@@ -445,7 +445,7 @@ template {
   justify-content: center;
   display: flex;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--4 {
     flex-direction: row;
     justify-content: center;
@@ -463,7 +463,7 @@ template {
   border-radius: 5px;
   color: #808080;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--4.theme__colors {
     padding: 10px;
     margin: 0 5px;
@@ -478,7 +478,7 @@ template {
   justify-content: center;
   display: flex;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--5 {
     flex-direction: row;
     justify-content: center;
@@ -496,7 +496,7 @@ template {
   border-radius: 5px;
   color: #808080;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--5.theme__colors {
     padding: 10px;
     margin: 0 5px;
@@ -511,7 +511,7 @@ template {
   justify-content: center;
   display: flex;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--6 {
     flex-direction: row;
     justify-content: center;
@@ -529,7 +529,7 @@ template {
   border-radius: 5px;
   color: #808080;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--6.theme__colors {
     padding: 10px;
     margin: 0 5px;
@@ -544,7 +544,7 @@ template {
   justify-content: center;
   display: flex;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--7 {
     flex-direction: row;
     justify-content: center;
@@ -562,7 +562,7 @@ template {
   border-radius: 5px;
   color: #808080;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--7.theme__colors {
     padding: 10px;
     margin: 0 5px;
@@ -577,7 +577,7 @@ template {
   justify-content: center;
   display: flex;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--8 {
     flex-direction: row;
     justify-content: center;
@@ -597,7 +597,7 @@ template {
   border-radius: 5px;
   color: #808080;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--8.theme__colors {
     padding: 10px;
     margin: 0 5px;
@@ -612,7 +612,7 @@ template {
   justify-content: center;
   display: flex;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--9 {
     flex-direction: row;
     justify-content: center;
@@ -624,7 +624,7 @@ template {
   justify-content: center;
   display: flex;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--10 {
     flex-direction: row;
     justify-content: center;
@@ -636,7 +636,7 @@ template {
   justify-content: center;
   display: flex;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--11 {
     flex-direction: row;
     justify-content: center;
@@ -648,7 +648,7 @@ template {
   justify-content: center;
   display: flex;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--12 {
     flex-direction: row;
     justify-content: center;
@@ -666,7 +666,7 @@ template {
   border-radius: 5px;
   color: #808080;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .grid__col--12.theme__colors {
     padding: 10px;
     margin: 0 5px;
@@ -684,7 +684,7 @@ template {
   color: white;
   text-transform: uppercase;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .btn--default {
     padding: 10px 5%;
     margin: 0 1%;
@@ -700,7 +700,7 @@ template {
   color: white;
   text-transform: uppercase;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .btn--success {
     padding: 10px 5%;
     margin: 0 1%;
@@ -716,7 +716,7 @@ template {
   color: white;
   text-transform: uppercase;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .btn--error {
     padding: 10px 5%;
     margin: 0 1%;
@@ -732,7 +732,7 @@ template {
   color: white;
   text-transform: uppercase;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .btn--warning {
     padding: 10px 5%;
     margin: 0 1%;
@@ -748,7 +748,7 @@ template {
   color: white;
   text-transform: uppercase;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .btn--info {
     padding: 10px 5%;
     margin: 0 1%;
@@ -764,6 +764,9 @@ template {
 }
 .form .form__label--hidden {
   display: none;
+}
+.form .btn-default {
+  background-color: #52DDFC;
 }
 .form .form__input {
   border: none;
@@ -782,31 +785,23 @@ template {
 }
 
 .img--frame {
-  width: 100%;
-  height: auto;
   padding: 10px;
   margin: 20px;
   border: 1px solid #58E1C1;
+  max-width: 100%;
 }
 
 .container {
   font-family: "Titillium Web", sans-serif;
 }
 
-.headline--primary {
-  line-height: 1.15em;
-}
-
 .headline--secondary {
   font-weight: lighter;
-}
-
-.headline--secondary {
   padding: 0;
   margin: 0 0 20px 20px;
   color: #C4C4C4;
 }
-@media (min-width: 480px) {
+@media (min-width: 769px) {
   .headline--secondary {
     padding: 0;
     margin: 0 0 20px 5px;
@@ -814,6 +809,7 @@ template {
 }
 
 .headline--primary {
+  line-height: 1.15em;
   display: block;
   width: 70%;
   padding: 0;
@@ -833,6 +829,7 @@ template {
 
 .link {
   text-decoration: none;
+  color: #52DDFC;
 }
 
 /*# sourceMappingURL=styles.css.map */

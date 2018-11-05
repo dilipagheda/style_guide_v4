@@ -1,12 +1,36 @@
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900");
-@import "../utilities/variables";
 
 .container{
   font-family: $font-stack;
 }
-.headline--primary{
-  line-height: 1.15em;
-}
-.headline--secondary{
+
+.headline--secondary {
   font-weight: lighter;
+  @include p-m($margin:0 0 20px 20px); // margin left
+  color: $headline-secondary-color;
+  @include desktop {
+    @include p-m($margin:0 0 20px 5px); // margin left
+  }
+}
+
+.headline--primary {
+  line-height: 1.15em;
+  display: block;
+  width: 70%;
+  @include p-m($margin:0 0 0 20px); // margin left
+  color: $headline-primary-color;
+}
+
+.blockquote {
+  font-style: italic;
+  font-size: 1.5em;
+  border-left: 10px solid $primary-color;
+  @include p-m($padding:0 0 0 10px); // padding left
+  font-weight: 100;
+  line-height: 1.25em;
+}
+
+.link {
+  text-decoration: none;
+  color:$link-color;
 }

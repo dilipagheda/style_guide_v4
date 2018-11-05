@@ -7,7 +7,7 @@
 
 //Mixin for media query for desktop
 @mixin desktop{
-  @media (min-width: 480px){
+  @media (min-width: $breakpoint-desktop){
     @content;
   }
 }

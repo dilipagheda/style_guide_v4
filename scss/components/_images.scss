@@ -5,8 +5,7 @@ align-self: center;
 }
 
 .img--frame{
-  width: 100%;
-  height: auto;
   @include p-m(10px,20px);
   border:1px solid $primary-color;
+  max-width: 100%;
 }

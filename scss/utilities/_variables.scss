@@ -6,9 +6,11 @@ $button-text-color:white;
 $headline-primary-color:#71E5CA; //primary headline--primary
 $headline-secondary-color:#C4C4C4;
 $text-color:lighten(#828282,20%);
+$link-color:#51DDFC;
 //Font
 $font-stack:'Titillium Web', sans-serif;
-
+//Breakpoints
+$breakpoint-desktop:769px;
 //Button colors
 
 $default-button-color:$secondary-color;//default

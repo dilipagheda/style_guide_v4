@@ -4,6 +4,9 @@
   .form__label--hidden{
     display: none;
   }
+  .btn-default{
+    background-color: $link-color;
+  }
   .form__input{
     border: none;
     border-bottom: 5px solid $primary-color;

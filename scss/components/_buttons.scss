@@ -1,5 +1,3 @@
-@import "../utilities/variables";
-
 
 @each $tag, $color in $button-tags-map{
   .btn--#{$tag}{
